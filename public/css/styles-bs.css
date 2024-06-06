@@ -1,0 +1,167 @@
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-section {
+    max-width: 1228px;
+    background: url('/images/banner-left.jpeg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left-section .content {
+    position: absolute;
+    bottom: 80px;
+    left: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 96px;
+    margin: 0 auto;
+    width: 1116px;
+    height: 316px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.content div svg {
+    margin-bottom: 24px;
+}
+
+.content div p {
+    margin-bottom: 96px;
+}
+
+.icon-button-light {
+    position: absolute;
+    top: 80px;
+    left: 56px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    border-radius: 9999px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.flask {
+    width: 12px;
+    height: 25px;
+    font-family: 'Font Awesome 6 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-toolz {
+    color: #0761E2;
+}
+
+.p24 {
+    padding: 24px 0;
+}
+
+.titles {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #0E0E0E;
+}
+
+.subtitles {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #585858;
+}
+
+
+.t-checkbox {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+}
+
+.t-checkbox-label {
+    line-height: 2.5rem !important;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+
+.right-section {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/
+}
+
+.login-options-separator {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.privacy-text {
+    font-size: 12px;
+}
+
+.submit-button {
+    padding: 24px 0;
+}
+
+.btn-toolz {
+    background: #0761E2;
+    border-radius: 8px;
+    text: white;
+}
+
+.btn-toolz:hover {
+    background: #063e8f;
+}
+
+.password-recovery {
+    padding: 24px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}

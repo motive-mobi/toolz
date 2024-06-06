@@ -1,0 +1,127 @@
+/* lightmode */
+/* Estilização geral */
+/*body {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 2120px;
+    max-height: 1280px;
+    display: flex;
+    height: 100vh;
+    background: #404040;
+    //position: relative;
+    //left: 100px;
+    //top: 100px;
+    //border: 1px solid rgba(255, 255, 255, 0.1);
+    //border-radius: 2px;
+}*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilização da seção da imagem e descrição do curso */
+.left-section {
+    width: 50%;
+    background: url('/images/banner-left.jpeg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.left-section .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 500px;
+}
+
+.left-section .content h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.left-section .content p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+
+/* Estilização da seção do formulário de login */
+.right-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.right-section .login-form {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.right-section .login-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.right-section .login-form .input-group {
+    margin-bottom: 15px;
+}
+
+.right-section .login-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.right-section .login-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right-section .login-form .login-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.right-section .login-form .login-button:hover {
+    background-color: #555;
+}
+
+/* Estilização adicional */
+.login-form .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login-form .options a {
+    color: #333;
+    text-decoration: none;
+}
+
+.login-form .options a:hover {
+    text-decoration: underline;
+}
